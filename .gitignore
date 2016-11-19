@@ -52,6 +52,7 @@ coverage.xml
 # Django stuff:
 *.log
 local_settings.py
+static
 
 # Flask stuff:
 instance/
@@ -89,4 +90,5 @@ ENV/
 .ropeproject
 
 # env name
-roads-sample
+sample-env
+

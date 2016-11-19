@@ -68,6 +68,8 @@ TEMPLATES = [
     },
 ]
 
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
+
 WSGI_APPLICATION = 'sample.wsgi.application'
 
 
