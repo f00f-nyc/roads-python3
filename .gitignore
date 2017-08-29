@@ -89,6 +89,5 @@ ENV/
 # Rope project settings
 .ropeproject
 
-# env name
-sample-env
-
+# sqlite3 files
+*.sqlite3
