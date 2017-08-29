@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.viewer import generic
+from django.views import generic
 
 
 class WelcomeViewer(generic.TemplateView):
