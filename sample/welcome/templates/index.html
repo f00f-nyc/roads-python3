@@ -7,15 +7,31 @@
         <title>Roads Sample App</title>
         <meta charset="utf-8">
 
-        {% block styles %}{% endblock %}
+        {% block styles %}
+        <link rel="stylesheet" href="{% static 'css/welcome.css' %}">
+        {% endblock %}
     </head>
 
     <body>
-        <h1>Welcome to Roads!</h1>
-        <p>This is the sample Python project deployed by Roads.</p>
-        <p>You've installed: Postgres, Gogs, and Jenkins</p>
-        <br>
-        <p>Link to <a href="gogs">Gogs</a>
-        <p>Link to <a href="jenkins">Jenkins</a>
+        <header id="header">
+            <nav id="top-nav-bar">
+                <a href="http://digitalborderlands.com/roads"><img src="{% static 'images/roads.png' %}" /></a>|&nbsp;Home
+            </nav>
+        </header>
+        <div class="container">
+            <h1 class="page-title">Welcome to Roads!</h1>
+            <p>This is the sample Python project deployed by Roads.</p>
+            <p>You've installed: Postgres, Gogs, and Jenkins</p>
+            <br />
+            <h2>About Postgres</h2>
+            <p>Postgres is an open source <a href="https://www.postgresql.org/">database</a>.<br />
+            You can find a getting started guide <a href="https://www.postgresql.org/docs/9.6/static/tutorial-start.html">here</a>.<br /></p>
+            <br />
+            <h2>About Gogs</h2>
+            <p>Link to <a href="gogs">Gogs</a></p>
+            <br />
+            <h2>About Jenkins</h2>
+            <p>Link to <a href="jenkins">Jenkins</a></p>
+        </div>
     </body>
 </html>
