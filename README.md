@@ -13,4 +13,4 @@ Roads is a one-time, system setup for your cloud service. It can be an intensive
 
 If you've done that, you only need to clone your private repository and start hacking away! Once you push to it, deployments will happen automatically.
 
-If you want to get into the details of what was deployed, passwords, and locations, please read `/opt/lib/roads/README.txt`.
+If you want to get into the details of what was deployed, passwords, and locations, please decrypt `/opt/lib/roads/README.gpg` with your job id.
