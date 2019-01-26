@@ -1,7 +1,7 @@
 ![Roads from Digital Borderlands](https://github.com/f00f-nyc/roads-python/raw/master/sample/welcome/static/images/roads.png  "Roads") 
 # Roads
 
-This is the sample Python project which will be deployed by Roads. A simple, straight-forward Python project which you can use as a spring board to work on your own website.
+This is the sample Python 3 project which will be deployed by Roads. A simple, straight-forward Python project which you can use as a spring board to work on your own website.
 
 ## About This Repository
 
