@@ -3,5 +3,5 @@ from django.views import generic
 
 
 class WelcomeViewer(generic.TemplateView):
-    template_name = "index.html"
+    template_name = 'index.html'
 
